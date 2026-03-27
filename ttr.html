@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tetris</title>
+    <link rel="stylesheet" href="ttr.css">
+</head>
+
+<body>
+    <div class="fl">
+        <div id="board">
+            <button id="start">Start</button>
+        </div>
+        <div id="container">
+            <div id="next">
+                <h3>Next</h3>
+                <div class="preview"></div>
+            </div>
+
+            <div id="hold">
+                <h3>Hold (C)</h3>
+                <div class="preview"></div>
+            </div>
+
+            <div id="score">
+                <h3>Score</h3>
+                <p id="score-value">0</p>
+                <h3>Level</h3>
+                <p id="level-value">1</p>
+            </div>
+
+            <div id="tspin-notify"></div>
+        </div>
+    </div>
+
+    <script src="ttr.js"></script>
+</body>
+
+</html>
